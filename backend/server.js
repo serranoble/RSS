@@ -12,7 +12,7 @@ app.use(cors()); // CORS para que el frontend pueda comunicarse con el backend
 // Configuración de la base de datos
 const db = mysql.createConnection({
   host: 'localhost',
-  user: 'root',
+  user: 'rss_root',
   password: 'admin123',
   database: 'mydb',
 });
